@@ -1,0 +1,15 @@
+.card__background {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    bottom: 12px;
+    right: 12px;
+    background: linear-gradient(0deg, rgba(34, 34, 34, 0.85) 30.64%, rgba(38, 38, 38, 0) 81.78%);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 610px) {
+    .card__background {
+        display: none;
+    }
+}

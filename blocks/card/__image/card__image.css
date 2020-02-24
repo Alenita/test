@@ -1,0 +1,20 @@
+@import './_1/card__image_1.css';
+@import './_2/card__image_2.css';
+@import './_3/card__image_3.css';
+@import './_4/card__image_4.css';
+
+.card__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 610px) {
+    .card__image {
+        width: 35%;
+        height: 100px;
+    }
+}

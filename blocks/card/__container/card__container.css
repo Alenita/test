@@ -1,0 +1,16 @@
+.card__container {
+    position: absolute;
+    width: 83%;
+    bottom: 24px;
+    left: 28px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 610px) {
+    .card__container {
+        position: static;
+        width: 60%;
+    }
+}

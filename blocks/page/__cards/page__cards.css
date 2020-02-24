@@ -1,0 +1,23 @@
+.page__cards {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 88px auto 0;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    .page__cards {
+        flex-wrap: wrap;
+        width: 78.6%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .page__cards {
+        width: 90%;
+        margin-top: 24px;
+    }
+}

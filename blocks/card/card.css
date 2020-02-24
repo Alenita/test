@@ -1,0 +1,56 @@
+@import './__image/card__image.css';
+@import './__background/card__background.css';
+@import './__container/card__container.css';
+@import './__title/card__title.css';
+@import './__text/card__text.css';
+
+.card {
+    width: 22.8%;
+    padding: 12px;
+    height: 196px;
+    position: relative;
+    /*box-sizing: border-box;*/
+
+}
+
+@media screen and (max-width: 1315px) {
+    .card {
+        width: 30%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 45%;
+        height: 200px;
+    }
+}
+
+/*@media screen and (max-width: 860px) {
+    .card {
+        width: 35%;
+        height: 200px;
+    }
+}*/
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 45%;
+        height: 208px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: static;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+}

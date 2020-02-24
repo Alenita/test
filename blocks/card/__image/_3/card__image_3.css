@@ -1,0 +1,15 @@
+.card__image_3 {
+    background-image: url('../../../../images/image3-m.png');
+}
+
+@media screen and (max-width: 900px) {
+    .card__image_3 {
+        background-image: url('../../../../images/image3-L.png');
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card__image_3 {
+        background-image: url('../../../../images/image3-S.png');
+    }
+}
